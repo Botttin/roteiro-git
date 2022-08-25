@@ -17,6 +17,10 @@ def main():
     plt.plot(valores)
     plt.show()
 
+for serie in valores:
+    plt.plot(serie)
+
+
     
  
 main()
